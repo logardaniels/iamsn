@@ -288,7 +288,7 @@ async function translateNew(messageDiv, parsedData) {
   sourceText += " \n ";
   sourceText += parsedData;
 
-  const response = await fetch('https://webster.onrender.com/', {
+  const response = await fetch('https://iamsn.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
