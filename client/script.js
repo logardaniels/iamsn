@@ -201,7 +201,7 @@ const handle = async () => {
 
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
-  const response = await fetch('https://webster.onrender.com/', {
+  const response = await fetch('https://iamsn.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
